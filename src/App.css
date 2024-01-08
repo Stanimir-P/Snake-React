@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap');
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background: black;
+	color: #EAE0DA;
+}
+
+#root {
+	height: 100%;
+	width: 100%;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+.app {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.leftColumn,
+.centerColumn,
+.rightColumn {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+/* Left column */
+
+.leftColumn {
+	justify-content: flex-end;
+}
+
+.snake {
+	height: 300px;
+}
+
+/* Center column */
+
+.title {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Bitter', serif;
+	font-size: 50px;
+}
+
+.canvasContainer {
+	position: relative;
+	flex: 2;
+}
+
+.playArea {
+	width: 585px;
+	height: 440px;
+	border: 10px groove rgba(160, 40, 0, 0.55);
+}
+
+#rat {
+	display: none;
+}
+
+.gameOver,
+.win {
+	position: absolute;
+	top: 45%;
+	left: 23%;
+	font-size: 35px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.playButtonContainer {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+}
+
+.playButton {
+	background: #502c7b;
+	border: 2px solid #EAE0DA;
+	padding: 10px;
+	box-shadow: 4px 4px 0px 0px #EAE0DA;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 0.9em;
+	font-weight: 700;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+.playButton:hover {
+	cursor: pointer;
+}
+
+/* Right column */
+
+.rightColumn {
+	margin-right: 50px;
+}
+
+.scoreBox {
+	flex: 1;
+	position: relative;
+	background-image: url("./media/sign.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 400px;
+	width: 250px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.score {
+	position: absolute;
+	top: 22%;
+	left: 25%;
+	color: black;
+}
+
+.highScore {
+	position: absolute;
+	top: 34%;
+	left: 9%;
+	color: black;
+}
+
+.controlsContainer {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Bitter', serif;
+}
+
+.arrowKeys,
+.spaceKey {
+	display: flex;
+	align-items: center;
+	padding: 16px 0px;
+}
+
+.arrowsTitle,
+.spaceTitle {
+	display: flex;
+	width: 100%;
+	color: '#EAE0DA';
+	margin-left: 16px;
+	font-size: 30px;
+}
