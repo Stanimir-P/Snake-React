@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/Snake-React/static/css/main.749bb77b.css",
-    "main.js": "/Snake-React/static/js/main.0837ca52.js",
+    "main.css": "/Snake-React/static/css/main.766b107a.css",
+    "main.js": "/Snake-React/static/js/main.a85c6ad5.js",
+    "static/js/787.f3cf611a.chunk.js": "/Snake-React/static/js/787.f3cf611a.chunk.js",
     "static/media/snake.png": "/Snake-React/static/media/snake.57e6f8e7546fae45e8e6.png",
     "static/media/sign.png": "/Snake-React/static/media/sign.21a2882d625c8429869a.png",
     "static/media/controls.png": "/Snake-React/static/media/controls.a2177e3ee2eb63b8fa4f.png",
     "static/media/spaceKey.png": "/Snake-React/static/media/spaceKey.8ffd5d6f6012570d57b5.png",
     "static/media/rat.png": "/Snake-React/static/media/rat.2ef72f7fbdb89b08d3d0.png",
     "index.html": "/Snake-React/index.html",
-    "main.749bb77b.css.map": "/Snake-React/static/css/main.749bb77b.css.map",
-    "main.0837ca52.js.map": "/Snake-React/static/js/main.0837ca52.js.map"
+    "main.766b107a.css.map": "/Snake-React/static/css/main.766b107a.css.map",
+    "main.a85c6ad5.js.map": "/Snake-React/static/js/main.a85c6ad5.js.map",
+    "787.f3cf611a.chunk.js.map": "/Snake-React/static/js/787.f3cf611a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.749bb77b.css",
-    "static/js/main.0837ca52.js"
+    "static/css/main.766b107a.css",
+    "static/js/main.a85c6ad5.js"
   ]
 }
